@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper/swiper-bundle.min.7.3.1.css">
+    <script defer src="js/swiper/swiper-bundle.min.7.3.1.js"></script>
+    <script defer  src="js/jquery/jquery-1.12.4.js"></script>
+    <script defer src="js/jquery/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script defer src="js/script.js"></script>
+    <title>Gussi</title>
+</head>
+<body>
+    <section class="section card">
+        <div class="container card__container flex">
+            <div class="card__images">
+                <div class="slider">
+                    <div class="slider__wrapper">
+                        <div class="swiper card__swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide">
+                                    <picture>
+                                        <source srcset="img/slider/Light_coat-320.jpg" media="(max-width: 644px)">
+                                        <source srcset="img/slider/Light_coat-720.jpg" media="(max-width: 1041px)">
+                                        <img class="slide__img" src="img/slider/Light_coat.jpg" alt="Image Light coat">
+                                    </picture>
+                                    <h2 class="slide__title">
+                                        Light coat
+                                    </h2>
+                                </div>
+                                <div class="swiper-slide slide">
+                                    <picture>
+                                        <source srcset="img/slider/Sondy_longsleeve-320.jpg" media="(max-width: 644px)">
+                                        <source srcset="img/slider/Sondy_longsleeve-720.jpg" media="(max-width: 1041px)">
+                                        <img class="slide__img" src="img/slider/Sondy_longsleeve.jpg" alt="Image Light coat">
+                                    </picture>
+                                    <h2 class="slide__title">
+                                        Sandy longsleeve
+                                    </h2>
+                                </div>
+                                <div class="swiper-slide slide">
+                                    <picture>
+                                        <source srcset="img/slider/Lime_jacket-320.jpg" media="(max-width: 644px)">
+                                        <source srcset="img/slider/Lime_jacket-720.jpg" media="(max-width: 1041px)">
+                                        <img class="slide__img" src="img/slider/Lime_jacket.jpg" alt="Image Light coat">
+                                    </picture>
+                                    <h2 class="slide__title">
+                                        Lime jacket
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__control">
+                        <img src="img/favicon.svg" alt="logo gussi" class="logo">
+                        <p class="slider__descr">
+                            More cotton, more freedom
+                        </p>
+                        <div class="slider__navigation flex">
+                            <div class="slider__arrows">
+                                <div class="slider__button-prev swiper-button-prev"></div>
+                                <div class="slider__button-next swiper-button-next" ></div>
+                            </div>
+                            <div class="swiper-pagination slider__pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__order">
+                <form class="form-order" action="#" aria-label="product order form">
+                    <h3 class="section__second-title form-order__title">
+                        New collection
+                    </h3>
+                    <h1 class="title">
+                        Gussi light coat 
+                    </h1>
+                    <p class="section__description form-order__description">
+                        It takes you from the party to the after party with its fashion-forward styles. A playfull blend of retro and modern outdoor design.
+                    </p>
+                    <div class="properties">
+                        <div class="properties-wrapper flex">
+                            <div class="properties-wrapper__col">
+                                <h3 class="section__second-title">
+                                    COLOUR
+                                </h3>
+                                <div class="colors">
+                                    <label class="colors__label" for="check-dark-blue">
+                                        <input id="check-dark-blue" class="custom-input" name="color" type="radio" checked>
+                                        <span class="colors__custom-check colors__custom-check_dark-blue" tabindex="0" aria-label="change dark blue color"></span>
+                                    </label>
+                                    <label class="colors__label" for="check-grey">
+                                        <input id="check-grey" class="custom-input" name="color" type="radio">
+                                        <span class="colors__custom-check  colors__custom-check_grey"tabindex="0" aria-label="change grey color"></span>
+                                    </label>
+                                    <label class="colors__label" for="check-blue">
+                                        <input id="check-blue" class="custom-input" name="color" type="radio">
+                                        <span class="colors__custom-check  colors__custom-check_blue" tabindex="0" aria-label="change blue color"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="properties-wrapper__col">
+                                <h3 class="section__second-title">
+                                    SIZE
+                                </h3>
+                                <div class="size flex">
+                                    <div class="size__change">
+                                        <label for="size-xs" class="size__label">
+                                            <input id="size-xs" class="custom-input" name="size" type="radio">
+                                            <span class="size__span" tabindex="0" aria-label="change size XS">
+                                                XS
+                                            </span>
+                                        </label>
+                                        <label for="size-s" class="size__label">
+                                            <input id="size-s" class="custom-input" name="size" type="radio" checked>
+                                            <span class="size__span" tabindex="0" aria-label="change size S">
+                                                S
+                                            </span>
+                                        </label>
+                                        <label for="size-m" class="size__label">
+                                            <input id="size-m" class="custom-input" name="size" type="radio">
+                                            <span class="size__span" tabindex="0" aria-label="change size M">
+                                                M
+                                            </span>
+                                        </label>
+                                        <label for="size-l" class="size__label">
+                                            <input id="size-l" class="custom-input" name="size" type="radio">
+                                            <span class="size__span" tabindex="0" aria-label="change size L">
+                                                L
+                                            </span>
+                                        </label>
+                                        <label for="size-xl" class="size__label">
+                                            <input id="size-xl" class="custom-input" name="size" type="radio">
+                                            <span class="size__span size__span_none" >
+                                                XL
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <a class="size__guide" href="xxx.jpg" download>
+                                        Size guide
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="properties-wrapper flex">
+                            <div class="properties-wrapper__col">
+                                <h3 class="section__second-title properties__quantity-title">
+                                    Quantity
+                                </h3>
+                                <div class="quentity flex">
+                                    <button class="quentity__change change-minus btn-reset" type="button">
+                                        -
+                                    </button>
+                                    <input type="number" class="quentity__check" value="1" min="0" max="10">
+                                    <button class="quentity__change change-plus btn-reset" type="button">
+                                        +
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="properties-wrapper__col">
+                                <h3 class="section__second-title properties__cost-title">
+                                    COST
+                                </h3>
+                                <div class="coast flex">
+                                    <span class="coast__currency">
+                                        $
+                                    </span>
+                                    <span class="coast__integer">
+                                        120
+                                    </span>
+                                    <span class="coast__delimiter">
+                                        .
+                                    </span>
+                                    <div class="span coast__fraction">
+                                        00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="section__second-title">
+                        PRODUCT DETAILS
+                    </h3>
+                    <p class="form-order__detais">
+                        Look out for its standout party dresses, feminine details, statement jackets and cool denim including skinny-cut jeans and cute denim shorts, which sit alongside its directional footwear and swimwear ranges.
+                    </p>
+                    <p class="form-order__type-product">
+                        63% Viscose, 37% Polyamide.
+                    </p>
+                    <button class="form-btn btn-reset">
+                        Order
+                    </button>
+                </form>
+                <ul class="accordion list-reset">
+                    <li class="accordion__item">
+                        <h3 class="section__second-title accordion-title">
+                            <span class="accordion-title__link">
+                                Delivery
+                            </span>
+                        </h3>
+                        <div class="accordion-descr">
+                            <p class="accordion-descr__text">
+                                Delivered on or before Monday, 25 February 2019
+                            </p>
+                            <p class="accordion-descr__text">
+                                Note: Subject to placing your order before specific cut-off times. Details available in checkout.
+                            </p>
+                            <p class="accordion-descr__text accordion-descr__text_coast">
+                                For free delivery – spend over 
+                                <span class="coast-bold">
+                                    £18.08
+                                </span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="accordion__item">
+                        <h3 class="section__second-title accordion-title">
+                            <span class="accordion-title__link">
+                                Return
+                            </span>
+                        </h3>
+                        <div class="accordion-descr">
+                            <p class="accordion-descr__text">
+                                Return through your local Boxberry store available in over 2,300 locations.
+                            </p>
+                            <p class="accordion-descr__text">
+                                You can create your return on the carrier website by clicking the create return link.
+                            </p>
+                            <p class="accordion-descr__text">
+                                Open 7 days a week, early until late.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <h3 class="section__second-title">
+                    Similar Collections
+                </h3>
+                <div class="similar flex">
+                    <a class="similar__col similar__col_kingsman flex" href="#">
+                        <h3 class="similar__title">
+                            Kingsman style
+                        </h3>
+                        <p class="similar__descr">
+                            More silk, more freedom
+                        </p>
+                    </a>
+                    <a class="similar__col similar__col_denim flex" href="#">
+                        <h3 class="similar__title">
+                            Denim goddess
+                        </h3>
+                        <p class="similar__descr">
+                            More denim, more freedom
+                        </p>
+                    </a>
+                </div>
+                <form action="#" class="form-subscribe" aria-label="site news subscription form">
+                    <h2 class="form-subscribe__title">
+                        Subscribe our newsletter
+                    </h2>
+                    <p class="form-subscribe__descr">
+                        Get notified about new collections of Gussi Store
+                    </p>
+                    <input class="form-subscribe__input" type="text" name="name-subscriber" placeholder="Enter your name" required>
+                    <input class="form-subscribe__input" type="email" name="email-subscriber" placeholder="Enter your e-mail" required>
+                    <div class="form-subscribe__gender gender">
+                        <span class="gender__title">
+                            Choose your gender:
+                        </span>
+                        <label class="gender__label" for="male">
+                            <input class="custom-input" type="radio" name="gender-subscribe" value="Male" id="male" checked>
+                            <span class="gender__span" tabindex="0" aria-label="gender male"></span>
+                            Male
+                        </label>
+                        <label class="gender__label" for="female">
+                            <input class="custom-input" type="radio" name="gender-subscribe" value="Female" id="female">
+                            <span class="gender__span" tabindex="0" aria-label="gender female"></span>
+                            Female
+                        </label>
+                        <label class="details-label flex" for="details-subscrib">
+                            <input class="custom-input" type="checkbox" name="details-subscribe" id="details-subscrib" >
+                            <span class="details__span"  tabindex="0" aria-label="deails"></span>
+                            Look out for its standout party dresses, feminine details
+                        </label>
+                        <button class="form-btn btn-reset">
+                            Subscribe Gussi
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
